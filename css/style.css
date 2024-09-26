@@ -779,7 +779,7 @@ a:focus {
 }
 
 .info_section .info_logo .navbar-brand img {
-  width: 45px;
+  width: 100%;
 }
 
 .info_section .info_logo .navbar-brand span {

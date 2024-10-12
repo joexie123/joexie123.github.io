@@ -1,12 +1,11 @@
 window.onload=function(){
     var imgArr=[
-        {"path":"images/1.jpg"},
-        {"path":"images/2.jpg"},
-        {"path":"images/3.jpg"},
-        {"path":"images/4.jpg"},
-        {"path":"images/5.jpg"},
-        {"path":"images/6.jpg"},
-        {"path":"images/7.jpg"}
+        {"path":"images/1-1.jpg"},
+        {"path":"images/2-2.jpg"},
+        {"path":"images/3-3.jpg"},
+        {"path":"images/4-4.jpg"},
+        {"path":"images/5-5.jpg"},
+        {"path":"images/6-6.jpg"},
     ];
     var size=[
         {"top":60,"left":0,"width":400,"height":240,"zIndex":1,"opacity":0},
@@ -15,7 +14,6 @@ window.onload=function(){
         {"top":0,"left":300,"width":600,"height":360,"zIndex":4,"opacity":100},
         {"top":30,"left":550,"width":500,"height":300,"zIndex":3,"opacity":70},
         {"top":60,"left":800,"width":400,"height":240,"zIndex":2,"opacity":40},
-        {"top":60,"left":800,"width":400,"height":240,"zIndex":1,"opacity":0}
     ];
     var imgSum=imgArr.length;
     var wrap=document.getElementById('wrap');
